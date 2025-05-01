@@ -28,9 +28,37 @@ Build a linear regression model to predict house prices based on area.
 8. Printed model coefficients
 
 ## 🧠 Sample Output
-```text
-MAE: 15286.12
-MSE: 326719090.4
-R² Score: 0.928
+
 Intercept: 16500.4
 Slope: 135.8
+
+✅ Dataset loaded successfully!
+      price  area  bedrooms  ...  parking  prefarea furnishingstatus
+0  13300000  7420         4  ...        2       yes        furnished
+1  12250000  8960         4  ...        3        no        furnished
+2  12250000  9960         3  ...        2       yes   semi-furnished
+3  12215000  7500         4  ...        3       yes        furnished
+4  11410000  7420         4  ...        2        no        furnished
+
+[5 rows x 13 columns]
+
+🧼 Checking for missing values:
+price               0
+area                0
+bedrooms            0
+bathrooms           0
+stories             0
+mainroad            0
+guestroom           0
+basement            0
+hotwaterheating     0
+airconditioning     0
+parking             0
+prefarea            0
+furnishingstatus    0
+dtype: int64
+
+📊 Model Evaluation:
+MAE: 1474748.1337969352
+MSE: 3675286604768.185
+R² Score: 0.27287851871974644
