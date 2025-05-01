@@ -42,6 +42,8 @@ Slope: 135.8
 
 [5 rows x 13 columns]
 
+
+
 🧼 Checking for missing values:
 price               0
 area                0
